@@ -1,4 +1,8 @@
 {"intents": [
+    {"tag": "greetings",
+    "patterns": ["Hi", "Hallo", "Hey", "Moin"],
+    "responses": ["Hallo, wie kann ich dir behilflich sein?", "Moin Moin, wie kann ich dir helfen?"]},
+    
     {"tag": "Sekretariat_wo",
     "patterns": ["Wo ist das Sekretariat","Wo finde ich das Sekretäriat"],
     "responses": ["Das Sekretariat befindet sich ... ."]},
@@ -15,31 +19,31 @@
     "patterns": ["Wann hat das Rektorat geöffnet", "Wann finde ich den Rektor in seinem Büro", "..."],
     "responses": ["Sie finden den Rektor standardmäßig von ... bis ... in seinem Büro vor."]},
 
-    {"tag": "",
+    {"tag": "Lehrerzimmer_wo",
     "patterns": ["", ""],
     "responses": ["", ""]},
 
-    {"tag": "",
+    {"tag": "Computerraum2",
     "patterns": ["", ""],
     "responses": ["", ""]},
 
-    {"tag": "",
+    {"tag": "SMVraum",
     "patterns": ["", ""],
     "responses": ["", ""]},
 
-    {"tag": "",
+    {"tag": "lastfloorclassrooms",
     "patterns": ["", ""],
     "responses": ["", ""]},
 
-    {"tag": "",
+    {"tag": "Kursraum1",
     "patterns": ["", ""],
     "responses": ["", ""]},
 
-    {"tag": "",
+    {"tag": "frenchroom",
     "patterns": ["", ""],
     "responses": ["", ""]},
 
-    {"tag": "",
+    {"tag": "Besbrechungszimmer",
     "patterns": ["", ""],
     "responses": ["", ""]}
 ]}
