@@ -1,0 +1,13 @@
+{"intents": [
+    {"tag": "Sekretariat_wo",
+    "patterns": ["Wo ist das Sekretariat","Wo finde ich das Sekretäriat"],
+    "responses": ["Das Sekretariat befindet sich ... ."]},
+    
+    {"tag": "Sekretäriat_wann",
+    "patterns":["Wann hat das Sekretariat geöffnet"],
+    "responses": ["Das Sekretariat hat heute von ... bis ... geöffnet."]},
+
+    {"tag": "Rektorat_Wo",
+    "patterns": ["Wo ist das Rektorat", "Wo finde ich den Rektor", "..."],
+    "responses": ["Sie finden das Rektorat ...", "Das Rektorat befindet sich ...", "Das Sekretariat befindet sich ..."]}
+]}
