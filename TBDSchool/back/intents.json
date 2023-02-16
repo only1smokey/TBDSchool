@@ -7,7 +7,39 @@
     "patterns":["Wann hat das Sekretariat geöffnet"],
     "responses": ["Das Sekretariat hat heute von ... bis ... geöffnet."]},
 
-    {"tag": "Rektorat_Wo",
+    {"tag": "Rektorat_wo",
     "patterns": ["Wo ist das Rektorat", "Wo finde ich den Rektor", "..."],
-    "responses": ["Sie finden das Rektorat ...", "Das Rektorat befindet sich ...", "Das Sekretariat befindet sich ..."]}
+    "responses": ["Sie finden das Rektorat ...", "Das Rektorat befindet sich ...", "Das Sekretariat befindet sich ..."]},
+
+    {"tag": "Rektorat_wann",
+    "patterns": ["Wann hat das Rektorat geöffnet", "Wann finde ich den Rektor in seinem Büro", "..."],
+    "responses": ["Sie finden den Rektor standardmäßig von ... bis ... in seinem Büro vor."]},
+
+    {"tag": "",
+    "patterns": ["", ""],
+    "responses": ["", ""]},
+
+    {"tag": "",
+    "patterns": ["", ""],
+    "responses": ["", ""]},
+
+    {"tag": "",
+    "patterns": ["", ""],
+    "responses": ["", ""]},
+
+    {"tag": "",
+    "patterns": ["", ""],
+    "responses": ["", ""]},
+
+    {"tag": "",
+    "patterns": ["", ""],
+    "responses": ["", ""]},
+
+    {"tag": "",
+    "patterns": ["", ""],
+    "responses": ["", ""]},
+
+    {"tag": "",
+    "patterns": ["", ""],
+    "responses": ["", ""]}
 ]}
