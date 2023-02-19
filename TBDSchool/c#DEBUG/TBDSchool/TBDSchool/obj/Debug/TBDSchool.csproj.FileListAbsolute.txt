@@ -3,9 +3,11 @@ C:\Users\bozhi\Desktop\pers\School\projekt\TBDSchool\TBDSchool\TBDSchool\c#DEBUG
 C:\Users\bozhi\Desktop\pers\School\projekt\TBDSchool\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\bin\Debug\TBDSchool.pdb
 C:\Users\bozhi\Desktop\pers\School\projekt\TBDSchool\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.csproj.AssemblyReference.cache
 C:\Users\bozhi\Desktop\pers\School\projekt\TBDSchool\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.csproj.SuggestedBindingRedirects.cache
-C:\Users\bozhi\Desktop\pers\School\projekt\TBDSchool\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.Form1.resources
 C:\Users\bozhi\Desktop\pers\School\projekt\TBDSchool\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.Properties.Resources.resources
 C:\Users\bozhi\Desktop\pers\School\projekt\TBDSchool\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.csproj.GenerateResource.cache
 C:\Users\bozhi\Desktop\pers\School\projekt\TBDSchool\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.csproj.CoreCompileInputs.cache
 C:\Users\bozhi\Desktop\pers\School\projekt\TBDSchool\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.exe
 C:\Users\bozhi\Desktop\pers\School\projekt\TBDSchool\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.pdb
+C:\Users\bozhi\Desktop\pers\School\projekt\TBDSchool\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.mainForm.resources
+C:\Users\bozhi\Desktop\pers\School\projekt\TBDSchool\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.AnsForm.resources
+C:\Users\bozhi\Desktop\pers\School\projekt\TBDSchool\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.HelpForm.resources
