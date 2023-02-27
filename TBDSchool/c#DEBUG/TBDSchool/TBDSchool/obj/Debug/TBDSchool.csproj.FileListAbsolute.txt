@@ -11,3 +11,16 @@ C:\Users\bozhi\Desktop\pers\School\projekt\TBDSchool\TBDSchool\TBDSchool\c#DEBUG
 C:\Users\bozhi\Desktop\pers\School\projekt\TBDSchool\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.mainForm.resources
 C:\Users\bozhi\Desktop\pers\School\projekt\TBDSchool\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.AnsForm.resources
 C:\Users\bozhi\Desktop\pers\School\projekt\TBDSchool\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.HelpForm.resources
+C:\Users\Realschule Boxberg 2\Desktop\Projekt\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\bin\Debug\TBDSchool.exe.config
+C:\Users\Realschule Boxberg 2\Desktop\Projekt\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\bin\Debug\TBDSchool.exe
+C:\Users\Realschule Boxberg 2\Desktop\Projekt\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\bin\Debug\TBDSchool.pdb
+C:\Users\Realschule Boxberg 2\Desktop\Projekt\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.csproj.AssemblyReference.cache
+C:\Users\Realschule Boxberg 2\Desktop\Projekt\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.csproj.SuggestedBindingRedirects.cache
+C:\Users\Realschule Boxberg 2\Desktop\Projekt\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.AnsForm.resources
+C:\Users\Realschule Boxberg 2\Desktop\Projekt\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.mainForm.resources
+C:\Users\Realschule Boxberg 2\Desktop\Projekt\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.HelpForm.resources
+C:\Users\Realschule Boxberg 2\Desktop\Projekt\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.Properties.Resources.resources
+C:\Users\Realschule Boxberg 2\Desktop\Projekt\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.csproj.GenerateResource.cache
+C:\Users\Realschule Boxberg 2\Desktop\Projekt\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.csproj.CoreCompileInputs.cache
+C:\Users\Realschule Boxberg 2\Desktop\Projekt\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.exe
+C:\Users\Realschule Boxberg 2\Desktop\Projekt\TBDSchool\TBDSchool\c#DEBUG\TBDSchool\TBDSchool\obj\Debug\TBDSchool.pdb
