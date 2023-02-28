@@ -1,49 +1,28 @@
-{"intents": [
-    {"tag": "greetings",
-    "patterns": ["Hi", "Hallo", "Hey", "Moin"],
-    "responses": ["Hallo, wie kann ich dir behilflich sein?", "Moin Moin, wie kann ich dir helfen?"]},
-    
-    {"tag": "Sekretariat_wo",
-    "patterns": ["Wo ist das Sekretariat","Wo finde ich das Sekretäriat"],
-    "responses": ["Das Sekretariat befindet sich ... ."]},
-    
-    {"tag": "Sekretäriat_wann",
-    "patterns":["Wann hat das Sekretariat geöffnet"],
-    "responses": ["Das Sekretariat hat heute von ... bis ... geöffnet."]},
-
-    {"tag": "Rektorat_wo",
-    "patterns": ["Wo ist das Rektorat", "Wo finde ich den Rektor", "..."],
-    "responses": ["Sie finden das Rektorat ...", "Das Rektorat befindet sich ...", "Das Sekretariat befindet sich ..."]},
-
-    {"tag": "Rektorat_wann",
-    "patterns": ["Wann hat das Rektorat geöffnet", "Wann finde ich den Rektor in seinem Büro", "..."],
-    "responses": ["Sie finden den Rektor standardmäßig von ... bis ... in seinem Büro vor."]},
-
-    {"tag": "Lehrerzimmer_wo",
-    "patterns": ["", ""],
-    "responses": ["", ""]},
-
-    {"tag": "Computerraum2",
-    "patterns": ["", ""],
-    "responses": ["", ""]},
-
-    {"tag": "SMVraum",
-    "patterns": ["", ""],
-    "responses": ["", ""]},
-
-    {"tag": "lastfloorclassrooms",
-    "patterns": ["", ""],
-    "responses": ["", ""]},
-
-    {"tag": "Kursraum1",
-    "patterns": ["", ""],
-    "responses": ["", ""]},
-
-    {"tag": "frenchroom",
-    "patterns": ["", ""],
-    "responses": ["", ""]},
-
-    {"tag": "Besbrechungszimmer",
-    "patterns": ["", ""],
-    "responses": ["", ""]}
-]}
+{
+    "intents": [{
+            "tag": "greetings",
+            "patterns": ["Hallo", "Hi", "Guten Morgen", "Guten Tag", "Guten Abend"],
+            "responses": ["Hallo! Wie kann ich dir helfen", "Hi! Wie kann ich dir behilflich sein", "Guten Morgen/Tag/Abend! Was kann ich für dich tun"]
+        },
+        {
+            "tag": "Sekretariat_wo",
+            "patterns": ["Wo ist das Sekretariat", "Wo finde ich das Sekretariat", "Kannst du mir den Weg zum Sekretariat zeigen"],
+            "responses": ["Das Sekretariat befindet sich im Gebäude X im Erdgeschoss. Gleich links neben dem Haupteingang.", "Das Sekretariat findest du im Erdgeschoss des Gebäudes X direkt neben dem Haupteingang.", "Wenn du durch den Haupteingang des Gebäudes X gehst, findest du das Sekretariat gleich links."]
+        },
+        {
+            "tag": "Sekretariat_wann",
+            "patterns": ["Wann hat das Sekretariat geöffnet", "Wann kann ich im Sekretariat vorbeikommen", "Welche Öffnungszeiten hat das Sekretariat"],
+            "responses": ["Das Sekretariat hat von Montag bis Freitag von 9 bis 12 Uhr geöffnet.", "Die Öffnungszeiten des Sekretariats sind von Montag bis Freitag von 9 bis 12 Uhr.", "Du kannst das Sekretariat von Montag bis Freitag zwischen 9 und 12 Uhr besuchen."]
+        },
+        {
+            "tag": "Rektorat_wo",
+            "patterns": ["Wo ist das Rektorat", "Wo finde ich den Rektor", "Wo befindet sich das Büro des Rektors"],
+            "responses": ["Das Rektorat befindet sich im Gebäude Y im zweiten Stock.", "Das Rektorat findest du im zweiten Stock des Gebäudes Y.", "Wenn du das Gebäude Y betrittst, findest du das Rektorat im zweiten Stock."]
+        },
+        {
+            "tag": "Rektorat_wann",
+            "patterns": ["Wann hat das Rektorat geöffnet", "Wann kann ich den Rektor treffen", "Welche Öffnungszeiten hat das Rektorat"],
+            "responses": ["Der Rektor hat keine festen Öffnungszeiten. Es ist am besten, einen Termin zu vereinbaren.", "Für ein Treffen mit dem Rektor solltest du am besten einen Termin vereinbaren.", "Da der Rektor keine festen Öffnungszeiten hat, empfiehlt es sich, einen Termin zu vereinbaren."]
+        }
+    ]
+}
