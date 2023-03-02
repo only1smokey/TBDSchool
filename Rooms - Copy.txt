@@ -1,0 +1,50 @@
+Oben			
+
+Computer oben 		411
+IT room 			410
+Franzoesisch			409
+
+Mitte
+
+Vorber. Handarbeit		303
+Vorber. Kunst		305/1
+Kunst			305
+Besprechungszimmer	308
+Lernbüro			309
+Medienraum		315
+WC Boy			312
+WC Girl			313
+
+Lehrerräume usw.
+Plakate			219
+Druck 			221+221/1
+Rektor			217
+Konrektor		215
+Sekretariat		216
+WC Mann			223
+WC Frau			222
+Erste Hilfe		224
+
+Untere Mitte
+Hausmeister		210
+Sozialarbeit		209
+Computer		212
+Musik			214
+Lehrerarbeitsraum		213
+SMV			207
+Beratungszimmer		205
+Vorber. Bio Che Phy	202
+Biologie			203
+Chemie			201
+Physik			204
+
+
+Unten
+
+Lernatelier		108
+
+WC Boys			106
+WC Girls			107
+
+Räume			  33
+Stockwerke		    5
