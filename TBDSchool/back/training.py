@@ -11,7 +11,7 @@ from keras.optimizers import SGD
 
 # Uncomment the following line if you need to download the 'punkt' and 'wordnet' packages
 #nltk.download('punkt')
-#8nltk.download('wordnet')
+#nltk.download('wordnet')
 
 lemmatizer = WordNetLemmatizer()
 
@@ -88,7 +88,7 @@ sgd = SGD(learning_rate=0.01, momentum=0.9, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
 # Train the model
-model.fit(np.array(X), np.array(y), epochs=50000, batch_size=5, verbose=1)
+model.fit(np.array(X), np.array(y), epochs=10000000, batch_size=5, verbose=1)
 
 # Save the words and classes to pickle files
 with open('words.pkl', 'wb') as file:
