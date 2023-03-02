@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +14,8 @@ namespace TBDSchool
 {
     public partial class mainForm : Form
     {
+
+        public string PyResult { get; set; }
 
         private bool isShifted = false;
         public mainForm()
@@ -243,12 +247,31 @@ namespace TBDSchool
         
         private void Btn_fragen_Click(object sender, EventArgs e)
         {
-            AnsForm ansform = new AnsForm();
-            ansform.Show();
-            this.Hide();
+            string input = inputTxtBox.Text;
+
+            // Call the Python script using subprocess
+            ProcessStartInfo startInfo = new ProcessStartInfo();
+            startInfo.FileName = "python";
+            startInfo.Arguments = "../../../../../back/chatbot.py " + input;
+            startInfo.UseShellExecute = false;
+            startInfo.RedirectStandardOutput = true;
+            using (Process process = Process.Start(startInfo))
+            {
+                using (StreamReader reader = process.StandardOutput)
+                {
+                    string result = reader.ReadToEnd();
+                    // Set the result to the C# textbox
+                    PyResult = result;
+                    AnsForm ansformm = new AnsForm(PyResult);
+
+                }
+            }
+            //AnsForm ansform = new AnsForm();
+            //ansform.Show();
+            //this.Hide();
         }
 
-        
+
 
         private void Btn_dot_Click(object sender, EventArgs e)
         {

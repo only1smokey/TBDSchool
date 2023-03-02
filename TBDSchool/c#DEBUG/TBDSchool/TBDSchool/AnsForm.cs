@@ -13,14 +13,16 @@ namespace TBDSchool
 
     public partial class AnsForm : Form
     {
+        private string _PyResult;
 
         StringBuilder sb = new StringBuilder();
         int currentIndex = 0;
         string fullText = "Dieses Programm kann möglicherweise nicht immer zu 100% korrekte Antworten liefern, da es auf Algorithmen basiert, die auf begrenzten Informationen und vordefinierten Regeln basieren. Die Genauigkeit der Antworten hängt auch von der Qualität der Daten und der Programmierung des Algorithmus ab. Es ist möglich, dass das Programm keine spezifischen Variablen oder unvorhergesehene Ereignisse berücksichtigt, die die Ergebnisse beeinflussen können.";
 
-        public AnsForm()
+        public AnsForm(string PyResult)
         {
             InitializeComponent();
+            _PyResult = PyResult;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -44,7 +46,12 @@ namespace TBDSchool
 
         private void AnsForm_Load(object sender, EventArgs e)
         {
+            
+            string PyResult = fragenform.PyResult;
+
             timer1.Enabled=true;
+
+            
         }
 
         private void button2_Click(object sender, EventArgs e)

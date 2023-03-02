@@ -3,6 +3,8 @@ import json
 import numpy as np
 import pickle
 
+import sys
+
 import nltk
 from nltk.stem import WordNetLemmatizer
 
@@ -11,6 +13,8 @@ from keras.models import load_model
 
 lemmatizer = WordNetLemmatizer()
 data_file = "intents.json"
+
+input_str = sys.argv[1]
 
 with open(data_file, 'r') as file:
     intents = json.load(file)
@@ -63,8 +67,21 @@ def get_response(intents_list, intents_json):
 
 print("GO! Bot is running!")
 
-while True:
-    message = input("")
-    ints = predict_class(message)
-    res = get_response(ints, intents)
-    print(res)
+#while True:
+#    message = input("")
+#    ints = predict_class(message)
+#    res = get_response(ints, intents)
+#    print(res)
+#    with open('res.txt', 'w', encoding='utf-8') as res_file:
+#        res_file.write(res)
+#        res_file.close()
+
+
+message = input("")
+ints = predict_class(message)
+res = get_response(ints, intents)
+print(res)
+with open('res.txt', 'w', encoding='utf-8') as res_file:
+    res_file.write(res)
+    res_file.close()
+

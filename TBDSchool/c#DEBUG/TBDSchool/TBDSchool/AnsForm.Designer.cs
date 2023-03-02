@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AnsForm));
-            this.inputTxtBox = new System.Windows.Forms.RichTextBox();
+            this.ResBox = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -40,21 +40,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.School_logo_PicBox)).BeginInit();
             this.SuspendLayout();
             // 
-            // inputTxtBox
+            // ResBox
             // 
-            this.inputTxtBox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.inputTxtBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(57)))), ((int)(((byte)(62)))));
-            this.inputTxtBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.inputTxtBox.DetectUrls = false;
-            this.inputTxtBox.Font = new System.Drawing.Font("Verdana", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.inputTxtBox.ForeColor = System.Drawing.SystemColors.Window;
-            this.inputTxtBox.Location = new System.Drawing.Point(12, 346);
-            this.inputTxtBox.Margin = new System.Windows.Forms.Padding(20, 75, 20, 75);
-            this.inputTxtBox.MaxLength = 186;
-            this.inputTxtBox.Name = "inputTxtBox";
-            this.inputTxtBox.Size = new System.Drawing.Size(1879, 420);
-            this.inputTxtBox.TabIndex = 3;
-            this.inputTxtBox.Text = "";
+            this.ResBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.ResBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(57)))), ((int)(((byte)(62)))));
+            this.ResBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.ResBox.DetectUrls = false;
+            this.ResBox.Font = new System.Drawing.Font("Verdana", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ResBox.ForeColor = System.Drawing.SystemColors.Window;
+            this.ResBox.Location = new System.Drawing.Point(12, 346);
+            this.ResBox.Margin = new System.Windows.Forms.Padding(20, 75, 20, 75);
+            this.ResBox.MaxLength = 186;
+            this.ResBox.Name = "ResBox";
+            this.ResBox.Size = new System.Drawing.Size(1879, 420);
+            this.ResBox.TabIndex = 3;
+            this.ResBox.Text = "";
             // 
             // button1
             // 
@@ -128,7 +128,7 @@
             this.Controls.Add(this.School_logo_PicBox);
             this.Controls.Add(this.LblFact);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.inputTxtBox);
+            this.Controls.Add(this.ResBox);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -143,7 +143,7 @@
 
         #endregion
 
-        private System.Windows.Forms.RichTextBox inputTxtBox;
+        private System.Windows.Forms.RichTextBox ResBox;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
