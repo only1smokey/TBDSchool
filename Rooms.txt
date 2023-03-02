@@ -1,0 +1,67 @@
+Oben			
+9a 			401
+9b 			408
+8a 			407
+8b 			402
+Com oben 		411
+our room 			410
+Franz 			409
+Unknown (beside 8b)	403
+
+Mitte
+7a 			301
+7b 			315
+6a 			307
+6b 			304
+5a 			311
+5b 			310
+Klavier			302
+Vorber. Handarbeit		303
+Vorber. Kunst		305/1
+Kunst			305
+Besprechungszimmer	308
+Lernbüro			309
+Medienraum		315
+WC Boy			312
+WC Girl			313
+
+Lehrerräume usw.
+Plakate			219
+Lehrer Real		220
+Lehrer Grund		218
+Druck 			221+221/1
+Rektor			217
+Konrektor		215
+Sekretariat		216
+WC Mann			223
+WC Frau			222
+Erste Hilfe		224
+
+Untere Mitte
+Hausmeister		210
+Sozialarbeit		209
+Computer		212
+Musik			214
+Lehrerarbeitsraum		213
+SMV			207
+Beratungszimmer		205
+Vorber. Bio Che Phy	202
+Biologie			203
+Chemie			201
+Physik			204
+10a			208
+10b			206
+
+Unten
+Technik			103
+Nähen			105
+Lager			112
+Heizung			110
+Lernatelier		108
+Unknown2 (beside Lager)	114
+3b/Musik			109
+WC Boys			106
+WC Girls			107
+
+Räume			  51
+Stockwerke		    5
