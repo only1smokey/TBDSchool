@@ -30,9 +30,109 @@
             "responses": ["Der Rektor hat keine festen Öffnungszeiten. Es ist am besten, einen Termin zu vereinbaren.", "Für ein Treffen mit dem Rektor sollten Sie am besten einen Termin vereinbaren.", "Da der Rektor keine festen Öffnungszeiten hat, empfiehlt es sich, einen Termin zu vereinbaren."]
         },
         {
-            "tag": ""
+            "tag": "Hausmeister_wo",
+            "patterns": [""],
+            "responses": [""]
+        },
+        {
+            "tag": "Hausmeister_wann",
+            "patterns": [""],
+            "responses": [""]
+        },
+        {
+            "tag": "WCs",
+            "patterns": [""],
+            "responses": [""]
+        },
+        {
+            "tag": "Erste_Hilfe",
+            "patterns": [""],
+            "responses": [""]
+        },
+        {
+            "tag": "Konrektor_wo",
+            "patterns": [""],
+            "responses": [""]
+        },
+        {
+            "tag": "Konrektor_wann",
+            "patterns": [""],
+            "responses": [""]
+        },
+        {
+            "tag": "Plakate/Bücher",
+            "patterns": [""],
+            "responses": [""]
+        },
+        {
+            "tag": "Sozialarbeit",
+            "patterns": [""],
+            "responses": [""]
+        },
+        {
+            "tag": "",
+            "patterns": [""],
+            "responses": [""]
+        },
+        {
+            "tag": "",
+            "patterns": [""],
+            "responses": [""]
+        },
+        {
+            "tag": "",
+            "patterns": [""],
+            "responses": [""]
+        },
+        {
+            "tag": "",
+            "patterns": [""],
+            "responses": [""]
+        },
+        {
+            "tag": "",
+            "patterns": [""],
+            "responses": [""]
+        },
+        {
+            "tag": "",
+            "patterns": [""],
+            "responses": [""]
+        },
+        {
+            "tag": "",
+            "patterns": [""],
+            "responses": [""]
+        },
+        {
+            "tag": "",
+            "patterns": [""],
+            "responses": [""]
+        },
+        {
+            "tag": "",
+            "patterns": [""],
+            "responses": [""]
+        },
+        {
+            "tag": "",
+            "patterns": [""],
+            "responses": [""]
+        },
+        {
+            "tag": "",
+            "patterns": [""],
+            "responses": [""]
+        },
+        {
+            "tag": "",
+            "patterns": [""],
+            "responses": [""]
+        },
+        {
+            "tag": "",
+            "patterns": [""],
+            "responses": [""]
         }
-
-        
     ]
 }
